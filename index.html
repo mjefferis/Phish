@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <!--current bugs: timer automatically starts and score wont load-->
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <link href='https://fonts.googleapis.com/css?family=Faster One' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+<!--this div will be the yellow square background for screen -->
+<div class="background">
+  <h1 id="logo">Phish Trivia</h1>
+  <p class="instructions">Guess the correst answer!</p>
+ 
+ <!--this subdiv will be for the start button-->
+ <div class ="startbutton">
+  <h1>Start</h1>
+ </div>
+
+ <!--this subdiv will have time remaining and the questions-->
+ <div class="quiz">
+   <p>Time Remaining: <span id="timeleft"></span></p>
+   <p>Trey was born in what year? 
+   <form>
+      <input type="radio" name="color" value="red" id="red"> 1962
+      <input type="radio" name="color" value="orange" id="orange" > 1963
+      <input type="radio" name="color" value="blue" id="blue"> 1964
+    </form>
+    <p>Phish was formed at which University?</p>
+   <form>
+      <input type="radio" name="year" value="abc" id="abc"> New York University
+      <input type="radio" name="year" value="bce" id="bce"> University of Vermont
+      <input type="radio" name="year" value="cde" id="cde"> Penn State
+    </form>
+    <p>Phish's longest show, clocking in at 7 and a half hours, was performed on what day?
+   <form>
+      <input type="radio" name="state" value="omaha" id="omaha"> 10/31/94
+      <input type="radio" name="state" value="lincoln" id="lincoln"> 12/31/99
+      <input type="radio" name="state" value="london" id="london"> 7/4/2000
+    </form>
+    <p>Which album has Phish not covered in a live setting?
+   <form>
+      <input type="radio" name="number" value="six" id="six"> The White Album
+      <input type="radio" name="number" value="eight" id="eight"> Thriller
+      <input type="radio" name="number" value="over" id="over"> Exile On Main Street
+    </form>
+    <audio controls>
+      <source src="assets/Tunes/15 Steam_.mp3" type="audio/mp3">
+      </audio>
+      <p>This version of 'Steam' was played on which date?</p>
+   <form>
+      <input type="radio" name="question" value="four" id="four"> 6/3/11
+      <input type="radio" name="question" value="five" id="five"> 6/4/11
+      <input type="radio" name="question" value="ninethousand" id="ninethousand"> 6/5/11
+    </form>
+ </div>
+
+<!--this subdiv will be for the submit button-->
+<div class ="submitbutton">
+  <h1>Submit</h1>
+</div>
+
+<!--this subdiv will present the information when game is complete-->
+<div class="end">
+<h1>All Done</h1>
+  <p>Correct Answers: <span id="numbercorrect"> </span> </p>
+  <p>Incorrect Answers: <span id="numberincorrect"></span></p>
+  <p>Unanswered: <span id="numberunanswered"></span></p>
+</div>
+<img class="dog" src="assets/Images/hotdog.png"></img>
+</div>
+
+<!--link to javascript and jq-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type = "text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

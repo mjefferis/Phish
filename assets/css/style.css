@@ -1,0 +1,66 @@
+body{
+    background-image: url("../images/memphis-colorful.png");
+    margin: 0 auto;
+}
+audio{
+    margin-top:15px;
+}
+
+p{
+    font-family:"open sans"; 
+}
+
+#logo{
+    text-align:center;
+    font-family:'Faster one';
+    font-size: 56px;
+    color:blue;
+    text-align:center;
+
+}
+.background{
+    background-color:yellow;
+    width:800px;
+    height:660px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.startbutton, .submitbutton{
+    background-color:lightblue;
+    border: 5px solid black;
+    text-align:center;
+    width:320px;
+    margin-top:10px;
+    margin-left:240px;
+    margin-bottom:10px;
+}
+
+.startbutton:hover, .submitbutton:hover { 
+    background-color: blue;
+}
+
+.startbutton:active, .submitbutton:active{
+    background-image: url("../images/phi.jpg");
+    background-size:320px 80px;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.quiz{
+    text-align:center;
+
+}
+
+.end{
+    text-align:center; 
+    margin-bottom:10px;
+    
+}
+
+.dog{
+    margin-left:10px;
+    margin-top:35px;
+    
+}
