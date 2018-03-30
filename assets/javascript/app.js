@@ -11,7 +11,7 @@ $('.end').hide();
 $('.submitbutton').hide();
 $('.dog').hide(); 
 
-//set timer for 45 seconds
+//set timer for 60 seconds
 var count = 60;
 var counter;
  
@@ -131,6 +131,7 @@ function timer() {
 //create function for start button
 $(".startbutton").on("click", function() {
     $('.startbutton').hide();
+    $('.instructions').hide();
     $('.quiz').show();
     $('.submitbutton').show();
     counter = setInterval(timer, 1000);
