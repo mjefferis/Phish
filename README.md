@@ -1,1 +1,1 @@
-# Phish
+This app was built using Javascript, jQuery, and HTML/CSS. The user is given 60 seconds to answer 5 questions about the rock band, Phish. When the user finishes the questions or when time is up, their score is totaled and the number they guessed wrong, incorrect, and unanswered are tallied up.
